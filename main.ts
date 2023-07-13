@@ -14,3 +14,5 @@ input.onPinPressed(TouchPin.P1, function () {
     radio.sendString("b")
 })
 radio.setGroup(1)
+radio.setTransmitPower(7)
+basic.showIcon(IconNames.Happy)
